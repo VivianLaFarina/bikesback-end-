@@ -13,7 +13,7 @@ exports.validUser = catchAsync(async (req, res, next) => {
   });
 
   if (!user) {
-    return next(new AppError(`User with id:${id} was not found 😔`, 404));
+    return next(new AppError(`User with id:${id} was not found 🕵🏻‍♀️ 😕`, 404));
   }
 
   req.user = user;

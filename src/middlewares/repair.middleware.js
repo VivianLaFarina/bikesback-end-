@@ -20,21 +20,7 @@ exports.validRepair = catchAsync(async (req, res, next) => {
   });
 
   if (!repair) {
-    const completedRepair = await Repair.findOne({
-      where: {
-        id,
-        status: 'completed',
-      },
-    });
-
-    if (completedRepair) {
-      return res.status(404).json({
-        status: 'error',
-        message: `The repair with id:${id} cannot be canceled because it has already been completed!`,
-      });
-    }
-
-    return next(new AppError(`Repair with id:${id} was not found 😔`, 404));
+    return next(new AppError(`Repair with id:${id} was not found 🕵🏻‍♀️ 😕`, 404));
   }
 
   req.user = repair.user;

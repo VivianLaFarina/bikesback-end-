@@ -6,7 +6,7 @@ const helmet = require('helmet');
 const hpp = require('hpp');
 const sanitizer = require('perfect-express-sanitizer');
 
-// Errors management - class
+// Errors management
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/error.controller');
 
@@ -26,13 +26,6 @@ app.use(helmet());
 app.use(express.json());
 app.use(cors());
 app.use(hpp());
-app.use(
-  sanitizer.clean({
-    xss: true,
-    noSql: true,
-    sql: true,
-  })
-);
 
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
