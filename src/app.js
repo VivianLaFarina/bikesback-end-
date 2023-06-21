@@ -18,7 +18,7 @@ const app = express();
 const limiter = rateLimit({
   max: 100000,
   windowMs: 60 * 60 * 1000,
-  message: 'Too many requests from this IP, please try again in one hour',
+  message: 'Too many requests from this IP, please try again in one hour👩🏻‍🏭',
 });
 
 // middlewares
@@ -47,7 +47,7 @@ app.use('/api/v1/repairs', repairsRouter);
 // errors
 app.all('*', (req, res, next) => {
   return next(
-    new AppError(`Cant find ${req.originalUrl} on this server!`, 404)
+    new AppError(`Cant find ${req.originalUrl} on this server! 🛰`, 404)
   );
 });
 
