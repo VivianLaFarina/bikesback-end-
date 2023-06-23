@@ -7,12 +7,12 @@ exports.findRepairs = catchAsync(async (req, res, next) => {
     where: { status: ['pending', 'completed'] },
     attributes: {
       exclude: ['status'],
-      include: [
-        {
-          model: User,
-        },
-      ],
     },
+    include: [
+      {
+        model: User,
+      },
+    ],
   });
 
   res.json({

@@ -1,0 +1,16 @@
+[2023-06-21T14:54:31.013Z] info secretOrPrivateKey must have a value undefined:undefined
+[2023-06-23T17:26:40.011Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-06-23T17:51:18.442Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-06-23T20:15:06.014Z] info User with email:juan@mail.com was not found undefined:undefined
+[2023-06-23T20:15:17.261Z] info User with email:juan@mail.com was not found undefined:undefined
+[2023-06-23T20:16:04.060Z] info User with email:juan@mail.com was not found undefined:undefined
+[2023-06-23T20:16:28.029Z] info User with email:juan@mail.com was not found undefined:undefined
+[2023-06-23T20:16:42.860Z] info User with email:juansss@mail.com was not found undefined:undefined
+[2023-06-23T20:23:34.239Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-06-23T20:28:43.255Z] info column "motorsNumber" of relation "repairs" does not exist undefined:undefined
+[2023-06-23T20:32:21.056Z] info column "motorsNumber" of relation "repairs" does not exist undefined:undefined
+[2023-06-23T20:34:00.100Z] info User with email:vivian@gmail.com was not found undefined:undefined
+[2023-06-23T20:34:20.987Z] info User with email:juansss@mail.com was not found undefined:undefined
+[2023-06-23T20:37:28.079Z] info You do not have permission to perform this action! undefined:undefined
+[2023-06-23T20:37:43.800Z] info You do not have permission to perform this action! undefined:undefined
+[2023-06-23T20:39:26.593Z] info attr.includes is not a function undefined:undefined

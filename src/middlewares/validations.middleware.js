@@ -14,7 +14,7 @@ const validFields = (req, res, next) => {
 };
 
 exports.createUserValidation = [
-  body('name').notEmpty().withMessage('Name cannot be empty'),
+  body('name').notEmpty().withMessage('Name cannot be null'),
   body('email')
     .notEmpty()
     .withMessage('Email cannot be empty')
